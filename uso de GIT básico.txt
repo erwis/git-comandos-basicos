@@ -2,6 +2,8 @@ git config --global user.name "erwis"
 git config --global user.email ingenieroerwisalvarez@gmail.com
 git config --list
 
+git clone repositorio_https
+- (Esto clona el repositorio en el directorio que elijas)
 git status 
 - (Te da el estatus de la rama: Si hay cambios etc.)
 git add . 
