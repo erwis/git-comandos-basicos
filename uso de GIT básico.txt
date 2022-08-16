@@ -1,0 +1,33 @@
+git config --global user.name "erwis"
+git config --global user.email ingenieroerwisalvarez@gmail.com
+git config --list
+
+git status 
+- (Te da el estatus de la rama: Si hay cambios etc.)
+git add . 
+- (Prepara todos los cambios para hacer el commit.)
+git fetch 
+- (Te va a decir si hay cambios en ramas remotas.)
+git push origin nombre_rama 
+- (Subes los cambios a la rama remota)
+git branch 
+- (Muestra las ramas locales)
+git branch -a 
+- (Muestra remotas)
+git checkout -b nombre_rama 
+- (Te creas la rama y te posicionas en ella) 
+git checkout nombre_rama 
+- (Te cambias de rama)
+git stash 
+- (Guarda los cambios realizados en un escondite para evitar commitearlos.)
+git stash list 
+- (List de todos los stash realizados)
+git stash clear 
+- (Elimina la lista de stash)
+git pull origin nombre_rama 
+- (Te bajas los cambios de la rama remota)
+git branch -D nombre_rama
+- (elimina una rama local)
+git merge nombre_rama  
+- (aqui se debe estar en una rama y al ejecutar este comando la rama se actualiza con lo que trae el merge)
+ 
