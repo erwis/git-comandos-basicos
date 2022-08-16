@@ -1,7 +1,7 @@
 git config --global user.name "erwis"
 git config --global user.email ingenieroerwisalvarez@gmail.com
 git config --list
-
+HOLA MUNDO
 git status 
 - (Te da el estatus de la rama: Si hay cambios etc.)
 git add . 
